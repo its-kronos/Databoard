@@ -46,3 +46,15 @@
 <img width="563" height="361" alt="image" src="https://github.com/user-attachments/assets/03c7181d-74b1-40cb-b3e2-841c3fd6907e" />
 
 **time: 1 hour**
+
+# 8/4/25
+
+- Started laying out everything and sourced other parts, such as the WIFI module and microSD reader, and then learned about how LDOs (the dropout voltage regulator I chose) would be ineficient, so now I'm trying to find a buck regulator instead
+
+<img width="445" height="630" alt="image" src="https://github.com/user-attachments/assets/66c0a3ba-30be-41d3-a048-5f4bfb0a5c00" />
+
+<img width="846" height="522" alt="image" src="https://github.com/user-attachments/assets/28fda6e9-2035-4dd8-b806-98aeefc7287e" />
+
+
+
+**time: 2 hours**
