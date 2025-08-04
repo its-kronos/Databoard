@@ -35,3 +35,14 @@
 
 
 **time: 2.5 hours**
+
+- Finished circuits for USB + ESD protection
+
+<img width="641" height="591" alt="image" src="https://github.com/user-attachments/assets/1c028988-3568-4dba-91fa-f7d43c803431" />
+
+
+- Did a lot of research on what type of converter I should use, since I would like for it to be compatable with different types of batteries, but this wasn't the easiest due to trying to make the board as cheap as possible. I was able to find a convertor that would allow for a stable conversion from 4.5 volts to 16 volts, which would be pretty good for things like 9V battery
+
+<img width="563" height="361" alt="image" src="https://github.com/user-attachments/assets/03c7181d-74b1-40cb-b3e2-841c3fd6907e" />
+
+**time: 1 hour**
