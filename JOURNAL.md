@@ -20,3 +20,18 @@
 - Using easyEDA would mean that I wouldn't have to worry about the PCB budget, especially since most of it isn't even tracked due to how documentation heavy hardware design can be
 
 **time: 3 hours**
+
+# 8/3/25
+
+- Ported over everything to easyEDA (without importing, just remade everything)
+- After, I added a 32.768 KHZ crystal for the RTC of the chip to be more accurate, especially since time tracking is something that can be fundamental for a board based on collecting data.
+- Finally, I started implementing USBC and esd protection with the USBLC6, but then I learned about how I could use TVS diodes for protection, which would be cheaper, and something I implement during the next session.
+
+<img width="1168" height="613" alt="image" src="https://github.com/user-attachments/assets/4fa9709f-0945-48c2-af2d-40767253c966" />
+
+- Also, towards the end, I learned about how the specific MCU I'm using requires 1.5k Ohm pull up resistor on USB DP, and after doing some research I decided that the next session I would include an P channel mosfet to control it
+
+<img width="794" height="43" alt="image" src="https://github.com/user-attachments/assets/6874f43a-fec2-4279-862b-ebbc6c66e618" />
+
+
+**time: 2.5 hours**
