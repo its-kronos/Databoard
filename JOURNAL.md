@@ -49,7 +49,7 @@
 
 # 8/4/25
 
-- Started laying out everything and sourced other parts, such as the WIFI module and microSD reader, and then learned about how LDOs (the dropout voltage regulator I chose) would be ineficient, so now I'm trying to find a buck regulator instead
+- Started laying out everything and sourced other parts, such as the WIFI module and microSD reader, and then learned about how LDOs (the dropout voltage regulator I chose) would be inefficient, so now I'm trying to find a buck regulator instead
 
 <img width="445" height="630" alt="image" src="https://github.com/user-attachments/assets/66c0a3ba-30be-41d3-a048-5f4bfb0a5c00" />
 
@@ -58,3 +58,15 @@
 
 
 **time: 2 hours**
+
+- Did some research about a buck regulator, but turns out they would require way too many extended components, so although it would be less efficient, it would drive up the costs
+
+<img width="921" height="286" alt="image" src="https://github.com/user-attachments/assets/56fc2ead-86e8-41fd-9c4a-3d525a7a428c" />
+
+
+- Changed up the layout a bit to make it neater as well as finished it, and added headers for debugging (SWDIO), and then started some of the start of routing, especially for important traces like USB and some of the power traces
+
+<img width="180" height="502" alt="image" src="https://github.com/user-attachments/assets/b2484456-0914-46ec-b0c0-58911c0b1199" />
+
+**time: 2 hours**
+
