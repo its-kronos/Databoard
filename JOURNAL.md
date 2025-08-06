@@ -70,3 +70,16 @@
 
 **time: 2 hours**
 
+# 8/5/25
+
+- Did a lot of the routing for the traces, and GPIO pins, especially the ones at the top of the STM32.
+
+<img width="326" height="433" alt="image" src="https://github.com/user-attachments/assets/19615aab-a05c-4299-a745-89155c418e0a" />
+
+
+- However, after doing this I noticed that most of the ADC pins (convert Analog signals to binary) would be used for communication with the SD card and the wifi chip, which would be a waste, so I started to restart and better plan this layout, trying to make sure that I would keep in mind which signals aare more important than others (like communication between components > GPIO)
+
+<img width="326" height="662" alt="image" src="https://github.com/user-attachments/assets/0fa39cfb-5403-490e-8788-c4250a344fbf" />
+
+**time: 2h 30m**
+
