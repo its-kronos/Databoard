@@ -77,9 +77,23 @@
 <img width="326" height="433" alt="image" src="https://github.com/user-attachments/assets/19615aab-a05c-4299-a745-89155c418e0a" />
 
 
-- However, after doing this I noticed that most of the ADC pins (convert Analog signals to binary) would be used for communication with the SD card and the wifi chip, which would be a waste, so I started to restart and better plan this layout, trying to make sure that I would keep in mind which signals aare more important than others (like communication between components > GPIO)
+- However, after doing this I noticed that most of the ADC pins (convert Analog signals to binary) would be used for communication with the SD card and the wifi chip, which would be a waste, so I started to restart and better plan this layout, trying to make sure that I would keep in mind which signals are more important than others (like communication between components > GPIO)
 
 <img width="326" height="662" alt="image" src="https://github.com/user-attachments/assets/0fa39cfb-5403-490e-8788-c4250a344fbf" />
 
 **time: 2h 30m**
+
+- I then spent quite a bit of time on routing, trying to make sure that it was neat, and when I got to the part where I had to route a second UART to communicate with the ESP32, I realized that Instead of using two GPIOs, I could use one and have a switch that switches between the REPL UART pins to the UART pins one would use for communicating with custom code. 
+
+<img width="568" height="499" alt="image" src="https://github.com/user-attachments/assets/cd30645c-8677-4909-900d-b5455fa0647e" />
+
+- During this time, I was able to successfully route 50% of the GPIO headers (and there were a few moment where I pretty much boxed myself in really badly)
+
+  <img width="255" height="656" alt="image" src="https://github.com/user-attachments/assets/5f43eaa3-bb17-4074-b666-f9dae985444d" />
+
+- This is quite tightly spaced:
+
+<img width="601" height="630" alt="image" src="https://github.com/user-attachments/assets/dd533679-cde9-45c0-9efb-53ef8e2cca73" />
+
+**time: 2h45m**
 
