@@ -100,3 +100,26 @@
 
 **time: 2h45m**
 
+# 8/6/25
+
+- This was a really big session especially due to today being the final day for the YSWS.
+
+- To start, I completely finished routing the board, which was really easy due to it pretty much being only straight lines.
+- After, I proceeded to check over everything in the schematic and the documentation, to make sure that everything would work
+
+
+- Unfortunately, the crystal that I was using for the RTC wouldn't work due to having too much of a load capacitance. This means that I must go with an extended component (which adds 3 dollars to the cost) and also reroute a small amount of the board.
+
+<img width="903" height="128" alt="image" src="https://github.com/user-attachments/assets/1d3a28b0-1fbb-46bf-afe6-81ebaa02dd9f" />
+
+- I also had to end up swapping RX and PB6 here, and the reason for that was that I thought RX (receive) would be sending the signals (I wasn't really thinking about it)
+
+<img width="309" height="349" alt="image" src="https://github.com/user-attachments/assets/c0b8c363-73bc-4961-9c89-45a815a21b01" />
+
+- Now, the only thing left is the art, and I was able to completely finish the top side, which in my opinion, looks really good, but took me a lot of time due to me being pretty bad at art.
+
+<img width="627" height="822" alt="image (8)" src="https://github.com/user-attachments/assets/1c26c4e5-2693-495d-9984-62a9c3ff739f" />
+
+**time: ~5h**
+
+
