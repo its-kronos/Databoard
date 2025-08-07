@@ -122,4 +122,17 @@
 
 **time: ~5h**
 
+- I started to add images to the back of the board, and one thing that was a challenge was how imported images always were bottom-most compared to patterns made natively in easyeda which was a pain to fix and move the shapes/reshape them.
+
+<img width="311" height="363" alt="image" src="https://github.com/user-attachments/assets/17a307cd-c8a9-4f6a-baf7-7cbc9d85ca09" />
+
+- Eventually I was able to get it looking pretty good after quite a bit of time
+
+<img width="905" height="823" alt="image" src="https://github.com/user-attachments/assets/358bb33f-bee4-44a8-9230-3eae65b1def0" />
+
+- Also turns out that multicolor silkscreen requires a white board, and at 0.8mm board thickness it requires a special surcharge of 32 dollars, so I changed it to 1.6 and redid the USB traces, as board thickness impacts impedence.
+
+<img width="413" height="296" alt="image" src="https://github.com/user-attachments/assets/84b750bc-ac0f-4a2d-8c74-c3296dbfb94b" />
+
+**time: ~2h**
 
