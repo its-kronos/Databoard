@@ -1,3 +1,5 @@
+Total design time: 22.75h
+
 # 8/1/25
 
 - Started by creating some ideas of what I generally wanted this project to be, and thanks to a few people, I came up with a basic idea.
