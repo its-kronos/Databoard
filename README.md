@@ -33,6 +33,12 @@
 
 - Honestly, the there weren't that many that were excruciatingly difficult for this project. I believe this was because of the time that I spent placing the components in pretty good spots. This made it easy, for the most part, to route the traces, as long as I picked which ones should be more valued and more direct
 
+# Schematic
+
+
+<img width="1253" height="845" alt="SCH_Schematic1_1-P1_2025-08-07" src="https://github.com/user-attachments/assets/54a97efb-c934-442d-afb5-20202d60ceec" />
+
+
 # PCB
 
 <img width="169" height="552" alt="image" src="https://github.com/user-attachments/assets/ac8d6aa4-be64-42e1-8628-37222b7b5055" />
