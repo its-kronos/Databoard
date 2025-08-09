@@ -21,6 +21,8 @@
 
 - PCB made to be as cheap and slim as possible
 
+- Featured on OSHWLAB, a website by JLCPCB to show hardware projects: https://oshwlab.com/anseld41/databoard
+
 # Why did I design it?
 
 - I had already made another devboard before, but I wanted to challenge myself more, and I did this by trying to make a design as slim as possible and as cheap as possible, which was wildy different from my previous project.
