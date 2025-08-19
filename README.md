@@ -1,7 +1,7 @@
 # Databoard
 
-![alt text](Images\IMG_2190.jpg)
-![alt text](Images\IMG_2176.jpg)
+![alt text](Images/IMG_2190.jpg)
+![alt text](Images/IMG_2176.jpg)
 
 # What is it?
 
