@@ -1,12 +1,13 @@
 # Databoard
 
-<img width="431" height="805" alt="image" src="https://github.com/user-attachments/assets/c40de850-36a3-45b4-9b76-e8eeb97ae2ab" />
-<img width="722" height="671" alt="image" src="https://github.com/user-attachments/assets/94268bd3-c8c4-4637-a9b0-ae4af202e4c9" />
+![alt text](Images\IMG_2190.jpg)
+![alt text](Images\IMG_2176.jpg)
 
 # What is it?
 
 - The Databoard is a custom devboard that excels in data collection, having many things that would make it useful
 - External RTC crystal (`Real Time Clock`) for accurate time-keeping
+  
 <img width="281" height="174" alt="image" src="https://github.com/user-attachments/assets/58a49d8a-5441-4015-bbd3-5f600894f261" />
 
 - WIFI to sync up the RTC or compare values from APIs
@@ -45,6 +46,9 @@
 
 <img width="169" height="552" alt="image" src="https://github.com/user-attachments/assets/ac8d6aa4-be64-42e1-8628-37222b7b5055" />
 <img width="163" height="551" alt="image" src="https://github.com/user-attachments/assets/5c78d89b-23a1-434d-b5b2-32a0c8cff3e0" />
+
+<img width="431" height="805" alt="image" src="https://github.com/user-attachments/assets/c40de850-36a3-45b4-9b76-e8eeb97ae2ab" />
+<img width="722" height="671" alt="image" src="https://github.com/user-attachments/assets/94268bd3-c8c4-4637-a9b0-ae4af202e4c9" />
 
 # BOM
 

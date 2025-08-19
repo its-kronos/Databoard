@@ -138,3 +138,21 @@ Total design time: 22.75h
 
 **time: ~2h**
 
+# 8/18/25
+
+- Got the PCB!!
+- Took a couple images in RAW format, which I spent quite a bit of time on
+-  Each image was about 100mb, so I'll just share compressed ~10MB versions
+
+![alt text](Images/IMG_2176.jpg) 
+
+![alt text](Images/IMG_2181.jpg) 
+
+![alt text](Images/IMG_2185.jpg) 
+
+![alt text](Images/IMG_2187.jpg) 
+
+![alt text](Images/IMG_2190.jpg)
+
+
+**time: 30m**
