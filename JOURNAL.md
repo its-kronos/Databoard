@@ -156,3 +156,16 @@ Total design time: 22.75h
 
 
 **time: 30m**
+
+# 8/19/25
+
+- started by trying to make custom circuit python build and set up WSL and did a lot of the steps there. Eventually, I found out that circuit python doesn't support the STM32F1 series due to there being too little inbuilt flash (probably, 64 kb)
+
+<img width="921" height="135" alt="image" src="https://github.com/user-attachments/assets/2acd1cd4-69b2-4b49-bd70-8b5440d8a79d" />
+
+
+- Also, STM32F1 doesn't have an inbuilt USB bootloader, so I have to use an open sourced one and flash via SWD (and I don't have a debugger!)
+
+- To make matters worse, I'm going to have to modify the bootloader for USB enumeration because most of them expect an 8 mhz clock while mine uses a 16 mhz
+
+**time: 1h45m**
