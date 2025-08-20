@@ -169,3 +169,21 @@ Total design time: 22.75h
 - To make matters worse, I'm going to have to modify the bootloader for USB enumeration because most of them expect an 8 mhz clock while mine uses a 16 mhz
 
 **time: 1h45m**
+
+# 8/19/25
+
+- I'm tired, and nothing i've tried worked, so there won't be that much for me to add images about, which sucks
+
+- So first, I tried using maple bootloader and after a while I successfully changed the value of a register!
+- Turns out this was a waste of time and outdated firmware
+
+- While doing this, i tried to create an SWD interface on a pi 3B+ with openocd (took so long to build), which failed to connect, and then I tried to create one on one of my RP2040 based devboards, which also failed to connect, being another timewaste
+
+- I then moved on to stm32duino and spent a large chunk of time trying to figure out how to change the values of the RCC_CFGR registor to allow for the 16 MHZ clock, but now I just think that its a board plugin for the arduino IDE and not meant to be used as a bootloader (?)
+
+- Anyways, I then tried to do a USB UART bridge on the other devboard, which failed for unknown reasons (works to flash the secondary MCU on the board).
+- I spent a while trying to debug this, by using stuff like a nano v3 and an LED to "read" it, but no data came out
+
+- Anyways, I'm just going to sleep on this project and home I can figure out something tomorrow
+
+**time:4h30m**
