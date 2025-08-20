@@ -187,3 +187,15 @@ Total design time: 22.75h
 - Anyways, I'm just going to sleep on this project and home I can figure out something tomorrow
 
 **time:4h30m**
+
+# 8/20/25
+
+- Turns out, I was using the wrong IO pins. I defined the UART IO pins as 8 and 9, but instead I was using pins 18 and 19, which was 100% my problem.
+- After trying to use this, it still failed, but this was because the baudrate was too high, and I was successfully able to properly send and read the byte from the nano.
+
+<img width="1024" height="170" alt="image" src="https://github.com/user-attachments/assets/15087fcb-ba46-4d17-b200-b85600f5dd3e" />
+
+- Now I should be able to hook it up and flash a binary
+- Also, I discovered that for using stm32duino, theres a bootloader derived from Maple that's more up to date, which makes it a lot easier to use
+
+**time 1h45m**
