@@ -199,3 +199,15 @@ Total design time: 22.75h
 - Also, I discovered that for using stm32duino, theres a bootloader derived from Maple that's more up to date, which makes it a lot easier to use
 
 **time 1h45m**
+
+# 8/20/25
+
+- So even though i was able to send the correct byte, the stm32 just refused to respond with anything at all, there isn't much to show for this, since its really just a whole lot of nothing. I spent about 3-ish hours trying to get this to work, but this was futile
+
+- Eventually, I decided to try SWD debug probe via openocd again, and for some reason, it just worked today, and I have no idea why
+- Either way, I was able to successfully able to flash a binary onto the device, so the next step would be to customize the opensource maple derivative to account for the 16mhz crystal, which should allow me to use it with stm32duino and in turn, the arduino ide
+
+<img width="1003" height="553" alt="image (10)" src="https://github.com/user-attachments/assets/9a321dde-f151-4bd3-9eb1-2abb2ae46af6" />
+
+**time 4h (long, I know)**
+
