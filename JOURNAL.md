@@ -211,3 +211,14 @@ Total design time: 22.75h
 
 **time 4h (long, I know)**
 
+# 8/21/25
+
+- Recompiled code to work with 16M crystal, which was easy due to their being a config
+- Turns out this bootloader only works with DFU, and doesn't work well with arduino, so I did a couple hours of searching online, and eventually found out that theres a new, better bootloader that works with the offical STM32 core for Arduino
+
+- Also, this new bootloader that I will implement next session doesn't require drivers!
+
+<img width="1061" height="165" alt="image" src="https://github.com/user-attachments/assets/649694ee-07d0-4b3f-a69c-6c082cac2d10" />
+
+
+**time: 3h15m (mainly due to the failing of the first bootloader)**
