@@ -222,3 +222,15 @@ Total design time: 22.75h
 
 
 **time: 3h15m (mainly due to the failing of the first bootloader)**
+
+# 8/21/25
+
+- The HID bootloader failed, even after doing quite a bit of research
+
+- Eventually found a CDC driver, but it doesn't work with arduino, and the creator of it hasn't updated it anytime recently, so no hope there
+
+- Went back to maple DFU bootloader, and I couldn't get that to work, so I honestly feel that theres nowhere to really go without external help
+
+- Will probably take a break to install Arch linux dual boot while waiting for my account to get approved for stmduino forums
+
+**time: 2h**
