@@ -234,3 +234,12 @@ Total design time: 22.75h
 - Will probably take a break to install Arch linux dual boot while waiting for my account to get approved for stmduino forums
 
 **time: 2h**
+
+# 8/29/25
+
+- Putting the binary directly on to the board wouldn't work obviously due to the crystal mismatch, but after some research i found out that I could create a pull request to add a new board to the offical stm32duino core
+- Took a lot longer than expected due to the instructions not being as detailed as I would like, but I was able to get it done
+
+<img width="1113" height="593" alt="image" src="https://github.com/user-attachments/assets/08c82e4b-0271-4624-899a-e41687caec0f" />
+
+**time: 2.5h**
