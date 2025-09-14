@@ -243,3 +243,12 @@ Total design time: 22.75h
 <img width="1113" height="593" alt="image" src="https://github.com/user-attachments/assets/08c82e4b-0271-4624-899a-e41687caec0f" />
 
 **time: 2.5h**
+
+# 9/12/25
+
+- Fixed up the PR to match the feedback, not much here except me just changing stuff to match what the maintainer for STM32DUINO said to do
+
+<img width="1062" height="448" alt="image" src="https://github.com/user-attachments/assets/1c67ca83-98fa-45bb-be77-e564f00de7c5" />
+
+
+**time: 1h**
