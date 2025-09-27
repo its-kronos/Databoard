@@ -261,3 +261,16 @@ Total design time: 22.75h
 
 **time: 30m**
 
+# 9/26/25
+
+- Now comes the challenging part of getting the ESP32 S2 on the board flashed with micropython
+- Spent about 20-25 minutes looking over my schematic and datasheets
+- made some code to put the esp in bootloader and forward usb signals to UART for ~30m, but I wasn't able to use esptool on it
+
+<img width="385" height="114" alt="image" src="https://github.com/user-attachments/assets/8c9b2d43-1479-44f8-bdf2-8ed74ed4984b" />
+
+- I could, however, confirm that the esp32s2 was going into bootloader mode
+
+**time: 1h**
+
+
