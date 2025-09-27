@@ -271,6 +271,17 @@ Total design time: 22.75h
 
 - I could, however, confirm that the esp32s2 was going into bootloader mode
 
+
+**time: 1h**
+
+# 9/27/25
+
+- Was able to debug everything except the connection between the STM and ESP
+
+<img width="585" height="109" alt="image" src="https://github.com/user-attachments/assets/68a91162-ccd8-4700-b2de-851f13433d34" />
+
+- Also managed to unjumble the bootloader ROM message
+
 **time: 1h**
 
 
