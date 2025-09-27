@@ -252,3 +252,12 @@ Total design time: 22.75h
 
 
 **time: 1h**
+
+# 9/26/25
+
+- IT WORKS IT WORKS
+
+<img width="419" height="232" alt="image" src="https://github.com/user-attachments/assets/e60e90b2-d82f-4dad-8b3b-719945d441dc" />
+
+**time: 30m**
+
