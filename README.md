@@ -10,7 +10,7 @@
   
 <img width="281" height="174" alt="image" src="https://github.com/user-attachments/assets/58a49d8a-5441-4015-bbd3-5f600894f261" />
 
-- WIFI to sync up the RTC or compare values from APIs
+- WIFI to sync up the RTC or compare values from APIs **(DOESN'T WORK, SEE DEVLOG FOR MORE INFO)**
 
 <img width="678" height="644" alt="image" src="https://github.com/user-attachments/assets/8fab40b9-49c0-4e39-8777-70c9bc2956bb" />
 
@@ -24,6 +24,10 @@
 
 - Featured on OSHWLAB, a website by JLCPCB to show hardware projects: https://oshwlab.com/anseld41/databoard
 
+# DEMO
+
+TBD
+
 # Why did I design it?
 
 - I had already made another devboard before, but I wanted to challenge myself more, and I did this by trying to make a design as slim as possible and as cheap as possible, which was wildy different from my previous project.
@@ -34,7 +38,9 @@
 
 # Challenges
 
-- Honestly, the there weren't that many that were excruciatingly difficult for this project. I believe this was because of the time that I spent placing the components in pretty good spots. This made it easy, for the most part, to route the traces, as long as I picked which ones should be more valued and more direct
+- Honestly, the there weren't that many that were excruciatingly difficult for designing this project. I believe this was because of the time that I spent placing the components in pretty good spots. This made it easy, for the most part, to route the traces, as long as I picked which ones should be more valued and more direct
+
+- The painful part of this project was actually the firmware. Attemping to debug the ESP32-S2 was hellish, especially when in the end a program used to flash ESPs, ESPTOOL, kept returning no serial data found despite me being able to read serial data in other programs.
 
 # Schematic
 
