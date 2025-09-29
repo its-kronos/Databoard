@@ -28,6 +28,14 @@
 
 TBD
 
+# USAGE
+
+- Please follow the instructions here: https://github.com/stm32duino/Arduino_Core_STM32
+- I created a PR to add my board variant, so you can follow all the official steps. **However, you must [install from git](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Using-git-repository) rather than the normal structions if you are using an STM32 verion below 2.12**
+
+- To upload code, you can use things like a USB-UART converter, ST-Link, or the included debug pins on the board.
+- **Only the debug pins on the board have been tested to work for uploading, it is the only method that I can use reliably as of now**
+
 # Why did I design it?
 
 - I had already made another devboard before, but I wanted to challenge myself more, and I did this by trying to make a design as slim as possible and as cheap as possible, which was wildy different from my previous project.
