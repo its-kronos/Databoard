@@ -284,4 +284,12 @@ Total design time: 22.75h
 
 **time: 1h**
 
+# 9/27/25
+
+- Debugged everything, and was even able to read serial data from the ESP32, but ESPtool always said no serial data found
+- Tried again and again to get ESPTOOL to even see serial data but nothing worked, and even a [reddit](https://www.reddit.com/r/esp32/comments/1ns5k6q/esptool_no_serial_data_received_esp32_is/) post came empty-handed
+
+<img width="320" height="34" alt="image" src="https://github.com/user-attachments/assets/f16e9d25-0299-4c39-8982-eca78fe34b5d" />
+
+**time: 1h**
 
