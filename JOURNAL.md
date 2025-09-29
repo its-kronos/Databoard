@@ -293,3 +293,15 @@ Total design time: 22.75h
 
 **time: 1h**
 
+# 9/28/25 - FINAL DEVLOG
+
+- Yeah soooo i gave up trying to get the ESP part of the devboard working. I honestly have no idea where to debug next, so I decided that it's a lost cause
+
+- HOWEVER... there is still the SD card portion, which worked perfectly!
+
+<img width="569" height="601" alt="image" src="https://github.com/user-attachments/assets/3fc5d4af-354e-4f85-bb5b-08fc0c96383e" />
+
+- Learning how to use the SD card and create an SPI interface was pretty interesting, but the compile time for the code was pretty painful (especially when I had to do it over and over again to test.
+- Anyways, a demo video will be coming soon!
+
+**time: 1.5h**
